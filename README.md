@@ -1,2 +1,3 @@
-# Time Series Feature Engineering
-Detailed information for time series feature extraction
+# Time Series Feature Extraction for Federated Learning
+This repo details the dataset used in the demonstration for time series features in federated learning
+
