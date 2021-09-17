@@ -3,11 +3,11 @@ This repo details the dataset used in the demonstration for time series features
 
 ## Data Set
 
-The data set used in this demonstrarion is a real-world data set collected with in a e-commerce platform, with the purpose to predict the purchasing itention of high potential users. The details of the dataset are described here[^fn1].
+The data set used in this demonstrarion is a real-world data set collected with in a e-commerce platform, with the purpose to predict the purchasing itention of high potential users. The details of the dataset are described here[^1].
 
 ## Feature Extraction
 
-We adopt our in-house feature engineering tools [^fn2][^fn3] on the production AutoML platform HyperCycleML[^fn4] to perform feature extraction. The configuration of the original dataset is described in [config.json](dataset/config.json). The detailed operations on the featues are summarized in [feql.script](dataset/feql.script). The operations are described in Feature Enginnering QL (FEQL), an in-house feature descitptive language.
+We adopt our in-house feature engineering tools [^2][^3] on the production AutoML platform HyperCycleML[^4] to perform feature extraction. The configuration of the original dataset is described in [config.json](dataset/config.json). The detailed operations on the featues are summarized in [feql.script](dataset/feql.script). The operations are described in Feature Enginnering QL (FEQL), an in-house feature descitptive language.
 
 ## Feature Division across Federated Parties
 
@@ -37,7 +37,7 @@ The actual data used in the training experiements can be found at [dataset](data
 
 ## References
 
-[^fn1]: JD Data Set.  https://jdata.jd.com/html/detail.html?id=1.
-[^fn2]:OpenMLDB.  2021. An  Open  Source  Database  for  Ma-chine  Learning  Systems.https://github.com/4paradigm/OpenMLDB.
-[^fn3]:Chen, C.; Yang, J.; Lu, M.; Wang, T.; Zheng, Z.; Chen, Y.;Dai, W.; He, B.; Wong, W.-F.; Wu, G.; Zhao, Y.; and Rudoff,A. 2021.  Optimizing In-Memory Database Engine for AI-Powered on-Line Decision Augmentation Using PersistentMemory.Proc. VLDB Endow., 14(5): 799–812.
-[^fn4]: HyperCycleML.  2021.   An  Automated  Machine  LearningPlatform. https://en.4paradigm.com/product/hypercycleml.html
+[^1]: JD Data Set.  https://jdata.jd.com/html/detail.html?id=1.
+[^2]:OpenMLDB.  2021. An  Open  Source  Database  for  Ma-chine  Learning  Systems.https://github.com/4paradigm/OpenMLDB.
+[^3]:Chen, C.; Yang, J.; Lu, M.; Wang, T.; Zheng, Z.; Chen, Y.;Dai, W.; He, B.; Wong, W.-F.; Wu, G.; Zhao, Y.; and Rudoff,A. 2021.  Optimizing In-Memory Database Engine for AI-Powered on-Line Decision Augmentation Using PersistentMemory.Proc. VLDB Endow., 14(5): 799–812.
+[^4]: HyperCycleML.  2021.   An  Automated  Machine  LearningPlatform. https://en.4paradigm.com/product/hypercycleml.html
