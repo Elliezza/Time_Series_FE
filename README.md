@@ -3,7 +3,7 @@ This repo details the dataset used in the demonstration for time series features
 
 ## Data Set
 
-The data set used in this demonstrarion is a real-world data set collected with in a e-commerce platform, with the purpose to predict the purchasing itention of high potential users. The details of the dataset are described here [[1]](#1).
+The data set used in this demonstrarion is a real-world data set collected with in a e-commerce platform, with the purpose to predict the purchasing itention of high potential users. The details of the dataset are described here [[1]](#1) and [here](DATASET.md).
 
 ## Feature Extraction
 
