@@ -14,7 +14,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 
  1. User Data
 
-| <div style="width:400px">Name</div> | <div style="width:400px">Meaning</div> | <div style="width:800px">Notes</div> |
+| Name <img width=100/> | Meaning <img width=160/>| Notes <img width=200/>|
 |-------------|-----------------------|-----------------------------------------|
 | user_id     | user ID               | Encoded                                 |
 | age         | age group             | -1 for unknown                          |
@@ -24,7 +24,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 
 2. Product Data
 
-| <div style="width:400px">Name</div> | <div style="width:400px">Meaning</div> | <div style="width:800px">Notes</div> |
+| Name <img width=100/> | Meaning <img width=160/>| Notes <img width=200/>|
 |-------------|-----------------------|-----------------------------------------|
 | sku_id      | product ID            | Encoded                                 |
 | a1          | property 1            | -1 for unknown                          |
@@ -35,7 +35,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 
 3. Comments Data
 
-| Name        | Meaning               | Notes                                   |
+| Name <img width=100/> | Meaning <img width=160/>| Notes <img width=200/>|
 |-------------|-----------------------|-----------------------------------------|
 | dt         | time until             | in days                                 |
 | sku_id      | product ID            | Encoded                                 |
@@ -43,9 +43,9 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 | has_bad_comment  | if product has bad comments | 0 for no; 1 for yes.         |
 | bad_comment_rate | rate of bad comments        | ratio of bad comments in all comments|
 
-4. Action Data
+5. Action Data
 
-| Name        | Meaning               | Notes                                   |
+| Name <img width=100/> | Meaning <img width=160/>| Notes <img width=200/>|
 |-------------|-----------------------|-----------------------------------------|
 | user_id     | user ID               | Encoded                                 |
 | sku_id      | product ID            | Encoded                                 |
