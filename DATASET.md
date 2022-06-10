@@ -24,7 +24,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 
 2. Product Data
 
-| Name        | Meaning               | Notes                                   |
+| <div style="width:400px">Name</div> | <div style="width:400px">Meaning</div> | <div style="width:800px">Notes</div> |
 |-------------|-----------------------|-----------------------------------------|
 | sku_id      | product ID            | Encoded                                 |
 | a1          | property 1            | -1 for unknown                          |
