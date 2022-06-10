@@ -14,7 +14,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 
  1. User Data
 
-| Name        | Meaning               | Notes                                   |
+| <div style="width:400px">Name</div> | <div style="width:400px">Meaning</div> | <div style="width:800px">Notes</div> |
 |-------------|-----------------------|-----------------------------------------|
 | user_id     | user ID               | Encoded                                 |
 | age         | age group             | -1 for unknown                          |
@@ -39,7 +39,7 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 |-------------|-----------------------|-----------------------------------------|
 | dt         | time until             | in days                                 |
 | sku_id      | product ID            | Encoded                                 |
-| comment_num | total number of comments  | 0 for no comments; 1 for 1 comment; 2 for 2-10 comments; 3 for 11-50 comments; 4 for above 50 comments.                        |
+| comment_num | total number of comments  | 0 for no comments; 1 for 1 comment; <br> 2 for 2-10 comments; 3 for 11-50 comments; <br> 4 for above 50 comments.                        |
 | has_bad_comment  | if product has bad comments | 0 for no; 1 for yes.         |
 | bad_comment_rate | rate of bad comments        | ratio of bad comments in all comments|
 
@@ -50,9 +50,8 @@ This dataset is from JD, one of China's biggest e-commerce companies, with billi
 | user_id     | user ID               | Encoded                                 |
 | sku_id      | product ID            | Encoded                                 |
 | time        | time of action    |
-| type        | type of action        | 1: browse; 2: put to cart; 3: remove from cart; 4: place order; 5: follow; 6: click |
+| type        | type of action        | 1: browse; 2: put to cart; <br>3: remove from cart; 4: place order; <br>5: follow; 6: click |
 | cate        | category ID           | Encoded                                 |
 | brand       | brand ID              | Encoded                                 |
-
 
 For more information, visit https://jdata.jd.com/html/detail.html?id=1.
