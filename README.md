@@ -11,11 +11,12 @@ We adopt our in-house feature engineering tools [[2]](#2)[[3]](#3) on the produc
 
 ## Feature Division across Federated Parties
 
-The extracted features byt the aforementioned feature engineering tools are logically divided into three sets:
+The extracted features by the aforementioned feature engineering tools are logically divided into three sets:
 
 - Static features: original features and non-time-related extracted features.
-- Time series set A: time series features generated with time windows constructed from user action logs.
-- Time series set B: time series features with time windows constructed from user product interaction logs.
+- Time series group A: time series features generated with time windows constructed from user action logs.
+- Time series group B: time series features with time windows constructed from user product interaction logs.
+- TIme series group C: time series features with time windows constructed from user comment logs.
 
 This division is for the purpose of evaluating the model accuracy with or without time series features. Note because the original dataset is not for federated learning, this division is done by different ways to construct time windows to simulate such scenarios. The detail features of each feature set is shown in the table.
 
