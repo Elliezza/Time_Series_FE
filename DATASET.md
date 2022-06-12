@@ -61,12 +61,12 @@ For more information, visit [[1]](#1)
 
 We adopt our in-house feature engineering tools [[2]](#2)[[3]](#3) on the production AutoML platform HyperCycleML [[4]](#4) to perform feature extraction. The configuration of the original dataset is described in [config.json](dataset/config.json). The detailed operations on the featues are summarized in [feql.script](dataset/feql.script). The operations are described in Feature Enginnering QL (FEQL), an in-house feature descitptive language.
 
-The extracted features by the aforementioned feature engineering tools are logically divided into three sets, from the three different sub-table the features are generated:
+The extracted features by the aforementioned feature engineering tools are logically divided into three sets, from the sub-tables the features are generated:
 
 - Static features: original features and non-time-related extracted features.
-- Time series group A: time series features generated with time windows constructed from user action logs.
-- Time series group B: time series features with time windows constructed from user product interaction logs.
-- TIme series group C: time series features with time windows constructed from user comment logs. 
+- Time series group A: time series features generated with time windows constructed for Action Data.
+- Time series group B: time series features generated with time windows constructed for user product interaction logs.
+- TIme series group C: time series features generated with time windows constructed for Comments Data. 
 
 | Group               | Feature Names                                                |
 | ------------------- | ------------------------------------------------------------ |
